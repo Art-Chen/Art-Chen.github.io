@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Art_Chen&#39;s Blog</title>
+  <icon>https://www.gravatar.com/avatar/796a2bc91274bbb702d5908e5d1b4c35</icon>
+  <subtitle>Do what you want to do.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://chenxy.moe/"/>
+  <updated>2018-08-19T04:22:40.758Z</updated>
+  <id>https://chenxy.moe/</id>
+  
+  <author>
+    <name>Art_Chen</name>
+    <email>Chenxy0201@qq.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在Windows 10 上使用高精度触摸板驱动</title>
+    <link href="https://chenxy.moe/2018/03/17/use-wdf-driver-for-touchpad.html"/>
+    <id>https://chenxy.moe/2018/03/17/use-wdf-driver-for-touchpad.html</id>
+    <published>2018-03-17T11:16:59.000Z</published>
+    <updated>2018-08-19T04:22:40.758Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;写在最前&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;众所周知Windows 10自带了一套触摸板的控制系统，然而大部分厂商都选择了自己造轮子，但是这轮子不一定造的好啊，所以我选择使用了高精度触摸板驱动&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://chenxy.moe/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你好2018</title>
+    <link href="https://chenxy.moe/2018/03/11/Happy-New-Year.html"/>
+    <id>https://chenxy.moe/2018/03/11/Happy-New-Year.html</id>
+    <published>2018-03-10T16:27:26.000Z</published>
+    <updated>2018-08-19T05:39:11.760Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Welcome-Back-Art-Chen&quot;&gt;&lt;a href=&quot;#Welcome-Back-Art-Chen&quot; class=&quot;headerlink&quot; title=&quot;Welcome Back!Art_Chen.&quot;&gt;&lt;/a&gt;Welcome Back!Art_Chen.&lt;/h2&gt;&lt;p&gt;哇，看看博客的记录，最后一次更新已经是2016年了啊，那时候的我….嗯？负能量挺重的就是了，感觉开个博客在批判自己….绝了哈&lt;/p&gt;
+&lt;p&gt;琪神还说写2017的总结 结果 233333333&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="https://chenxy.moe/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="日常" scheme="https://chenxy.moe/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我有一句妈卖批现在就要讲</title>
+    <link href="https://chenxy.moe/2016/12/04/%E6%88%91%E6%9C%89%E4%B8%80%E5%8F%A5%E5%A6%88%E5%8D%96%E6%89%B9%E7%8E%B0%E5%9C%A8%E5%B0%B1%E8%A6%81%E8%AE%B2.html"/>
+    <id>https://chenxy.moe/2016/12/04/我有一句妈卖批现在就要讲.html</id>
+    <published>2016-12-04T02:02:42.000Z</published>
+    <updated>2016-12-04T02:16:54.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前排提示本篇文章带自动播放的音乐哦，流量党注意~&lt;/p&gt;
+&lt;h1 id=&quot;写在最前&quot;&gt;&lt;a href=&quot;#写在最前&quot; class=&quot;headerlink&quot; title=&quot;写在最前&quot;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;已经很久没有更新博客了，一次考试过后内心有着特别多的想法，就想着更新自己的博客，结果一打开已经是404，本来糟糕的心情平添上了一丝惆怅，后来朋友说fq还是能访问我亲爱的博客的，然后就想到是不是自己的国内源挂掉了…一看，服务被自动关闭了…尴尬&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="https://chenxy.moe/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="日常" scheme="https://chenxy.moe/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+      <category term="妈卖批" scheme="https://chenxy.moe/tags/%E5%A6%88%E5%8D%96%E6%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不知道写点什么</title>
+    <link href="https://chenxy.moe/2016/10/06/%E4%B8%8D%E7%9F%A5%E9%81%93%E5%86%99%E7%82%B9%E4%BB%80%E4%B9%88.html"/>
+    <id>https://chenxy.moe/2016/10/06/不知道写点什么.html</id>
+    <published>2016-10-06T09:43:23.000Z</published>
+    <updated>2016-10-06T12:24:12.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;日常更新&quot;&gt;&lt;a href=&quot;#日常更新&quot; class=&quot;headerlink&quot; title=&quot;日常更新&quot;&gt;&lt;/a&gt;日常更新&lt;/h1&gt;&lt;p&gt;转眼啊就高二了，都快段考了，现在呢好像是最后一个长假期了吧，又到了一个陌生的群体，朋友圈又拓展了一圈，虽然刚开学的时候各种一言不合就王者农药开黑搞事情，后面都在沉迷于自己的学习…尴尬&lt;br&gt;过了一个暑假感觉自己又长大了一样，就像上次一个亲戚和我说:”高几了？”&lt;br&gt;“高二。”&lt;br&gt;“高二了就少玩点手机”&lt;br&gt;“…”&lt;br&gt;“高二了就要多陪女孩子出去玩知道没？”&lt;br&gt;“？？？”&lt;br&gt;好吧其实每次看到人家各种秀心里总是很难受&lt;br&gt;对哦，好像我还欠一个女孩子几顿饭诶…&lt;br&gt;………….&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="https://chenxy.moe/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="日常" scheme="https://chenxy.moe/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开坑论如何在普通PC上安装MacOS系统(俗称黑苹果)</title>
+    <link href="https://chenxy.moe/2016/07/22/install-macos-on-pc-guide.html"/>
+    <id>https://chenxy.moe/2016/07/22/install-macos-on-pc-guide.html</id>
+    <published>2016-07-21T16:10:00.000Z</published>
+    <updated>2018-08-19T04:22:53.999Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;一台正常的PC —— 需要确定所有硬件是否被MacOS所兼容&lt;/li&gt;
+&lt;li&gt;一个大于或等于8Gb容量的U盘&lt;/li&gt;
+&lt;li&gt;一个MacOS的原版with Clover的dmg镜像&lt;/li&gt;
+&lt;li&gt;一部能用来查阅资料的移动设备(可选)&lt;/li&gt;
+&lt;li&gt;一个适合你自己的Config.plist&lt;/li&gt;
+&lt;li&gt;一个大于或等于200M的ESP分区&lt;/li&gt;
+&lt;li&gt;一个有足够空间(推荐&amp;gt;= 100G)的NTFS分区(后期会格式化为HFS+)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;20160722 更新&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;一个Intel的处理器(因为APU需要破解内核，并且安装之后会有很多问题)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+      <category term="教程" scheme="https://chenxy.moe/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="黑苹果" scheme="https://chenxy.moe/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+      <category term="黑科技" scheme="https://chenxy.moe/tags/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
+    
+      <category term="安装向导" scheme="https://chenxy.moe/tags/%E5%AE%89%E8%A3%85%E5%90%91%E5%AF%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快要期末考试了</title>
+    <link href="https://chenxy.moe/2016/07/02/will-test.html"/>
+    <id>https://chenxy.moe/2016/07/02/will-test.html</id>
+    <published>2016-07-02T14:32:15.000Z</published>
+    <updated>2016-10-06T09:17:15.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;说到考试这个话题,我就想吐槽一下应试教育,然后接着就各种吐槽balabalabala….&lt;/p&gt;
+&lt;p&gt;恩,7月4日我要考试了,所以更新一下我的blog&lt;br&gt;&lt;del&gt;没错我只是个孩子&lt;/del&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="https://chenxy.moe/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="考试" scheme="https://chenxy.moe/tags/%E8%80%83%E8%AF%95/"/>
+    
+      <category term="人生" scheme="https://chenxy.moe/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>终于还是有了一个自己的博客</title>
+    <link href="https://chenxy.moe/2016/06/26/newblog.html"/>
+    <id>https://chenxy.moe/2016/06/26/newblog.html</id>
+    <published>2016-06-26T07:01:37.000Z</published>
+    <updated>2016-07-25T09:18:58.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;关于我&quot;&gt;&lt;a href=&quot;#关于我&quot; class=&quot;headerlink&quot; title=&quot;关于我&quot;&gt;&lt;/a&gt;关于我&lt;/h2&gt;&lt;p&gt;我只是一名非常非常普通的开发者,如果要说有什么愿望的话,那就是能在别人面前
+        
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="https://chenxy.moe/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="新博客" scheme="https://chenxy.moe/tags/%E6%96%B0%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="建站" scheme="https://chenxy.moe/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+</feed>

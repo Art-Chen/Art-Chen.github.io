@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>在Windows 10 上使用高精度触摸板驱动</title>
+      <link href="/2018/03/17/use-wdf-driver-for-touchpad.html"/>
+      <url>/2018/03/17/use-wdf-driver-for-touchpad.html</url>
+      <content type="html"><![CDATA[<ul><li>写在最前</li></ul><p>众所周知Windows 10自带了一套触摸板的控制系统，然而大部分厂商都选择了自己造轮子，但是这轮子不一定造的好啊，所以我选择使用了高精度触摸板驱动<br><a id="more"></a></p><ul><li>正文<br>首先，确认你是<strong>ELAN</strong>或者<strong>Synaptics</strong>的多指触控触摸板，然后在下面下载对应的驱动<br><a href="https://download.lenovo.com/pccbbs/mobiles/n1mgx14w.zip" title="Synaptics驱动" target="_blank" rel="noopener">Synaptics</a><br><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=%20Elan%20WDF" title="Windows Calalog" target="_blank" rel="noopener">ELAN</a><br>PS:ELAN请在链接里选择最新的版本下载 Date是日期<br><img src="http://chenxy.moe/image/calalog.png" alt="ELAN驱动下载"></li></ul><p><img src="http://chenxy.moe/image/driver.gif" alt="安装"><br><img src="http://chenxy.moe/image/settings.gif" alt="设置"></p><p>All Done!打开Edge体验一下不输Mac的触摸板体验吧</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>你好2018</title>
+      <link href="/2018/03/11/Happy-New-Year.html"/>
+      <url>/2018/03/11/Happy-New-Year.html</url>
+      <content type="html"><![CDATA[<h2 id="Welcome-Back-Art-Chen"><a href="#Welcome-Back-Art-Chen" class="headerlink" title="Welcome Back!Art_Chen."></a>Welcome Back!Art_Chen.</h2><p>哇，看看博客的记录，最后一次更新已经是2016年了啊，那时候的我….嗯？负能量挺重的就是了，感觉开个博客在批判自己….绝了哈</p><p>琪神还说写2017的总结 结果 233333333<br><a id="more"></a></p><h2 id="趣"><a href="#趣" class="headerlink" title="趣"></a>趣</h2><h3 id="回顾2017"><a href="#回顾2017" class="headerlink" title="回顾2017"></a>回顾2017</h3><p>2017年，好像也没留下什么记号，唯一还记得的可能就是认识超级可爱的庞庞吧…Emmmm…..从我生日那时候的电话，各种日常的出谋划策，觉得她真的超级<del>能干</del> 可靠</p><p>到玩机这块，嗯…又认识了很多大佬，然后后面玩了拼包移植，其实我是在接触到ZUK系列手机，才对拼包移植这种方便省事不怎么要电脑配置的方式感兴趣的，后来为了实现一些功能学会了魔改框架，追方法，自己写实现，对smali,java c以及安卓源码的理解又加深了一下，不过还是很菜就是了</p><p>恩，还有就是，我多了个亲弟弟…</p><p>高三又分班了，在最后一年还能认识认识新同学也不失为一个好事，恩有个女孩子挺好看的…   <del>溜了溜了</del></p><p>QQ飞车出手游了，对赛车类游戏本身就有点兴趣的我自然是入坑了，感觉…还行</p><p>剁手了一个USB SSD，Type-C USB 3.1 256G的，800多，总觉得自己是不是疯了…说真现在有点小后悔</p><p>和很多老师关系好了一些，当然沟通的媒介似乎不是知识…是做苦力<del>(修电脑)</del></p><p>一年前的事还能记得 可把我牛逼坏了 撑一会腰</p><p>唉思绪好乱 不知道能写什么 就先说到这吧</p><h3 id="你好-2017-2018"><a href="#你好-2017-2018" class="headerlink" title="你好 2017 2018"></a>你好 <del>2017</del> 2018</h3><p>当我写这篇文章的时候，距离高考仅有89天了，一本是没想过，但是很荣幸直到现在还没有一次模拟考成绩低于本科线…唉不知道是不是一种悲哀</p><p>恩首先 我成年了 终于可以用自己身份证去 上网了！！！！！哈哈哈哈哈哈</p><p>总觉得自己一直在忙，却又忙的很没有目的。回到家，抱上扑过来的弟弟，放下书包，打开电脑，引导进Windows，下载几个包打算玩玩，然后内心:”md还要重启进Linux，真烦；还要备份数据，真烦；还要浪费我手机的电，真烦。”,give up….<br>(可是好像似乎上传这篇博文还是要进Linux…算了，Windows搭建一下环境吧)</p><p>想买一台iPhone，感觉在中国 苹果的日常使用体验会比安卓好那么一丢丢，加上不用折腾，恩，感觉不错。我才不会说半年前我曾经说过iPhone根本就不适合我。</p><p>想减肥，我自己都看不下去了，唉，刚18的小伙子就这么胖了还怎么耍哦，养猪嘛<br>感觉健身房可以考虑一下…</p><p>今天刚刚参加了英语口语考试，恩，前面还行，口语表达是真的伤，我都不知道我说的是什么哦。</p><p>恩 还有9个月 对自己没啥要求 只要不把今天活成昨天的样子 就是最大的进步啦</p><blockquote><p>I lied when I said I didn’t like you. I lied when I said I didn’t care. I lie every time I try to tell myself I will never fall for you.<br>　　我说不爱你，那是假话；我说不在乎，那是假话；我告诉自己对你再不会有感觉了，那也是假话。</p></blockquote><h2 id="听"><a href="#听" class="headerlink" title="听"></a>听</h2><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=526116066&auto=1&height=66"></iframe>]]></content>
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>我有一句妈卖批现在就要讲</title>
+      <link href="/2016/12/04/%E6%88%91%E6%9C%89%E4%B8%80%E5%8F%A5%E5%A6%88%E5%8D%96%E6%89%B9%E7%8E%B0%E5%9C%A8%E5%B0%B1%E8%A6%81%E8%AE%B2.html"/>
+      <url>/2016/12/04/%E6%88%91%E6%9C%89%E4%B8%80%E5%8F%A5%E5%A6%88%E5%8D%96%E6%89%B9%E7%8E%B0%E5%9C%A8%E5%B0%B1%E8%A6%81%E8%AE%B2.html</url>
+      <content type="html"><![CDATA[<p>前排提示本篇文章带自动播放的音乐哦，流量党注意~</p><h1 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h1><p>已经很久没有更新博客了，一次考试过后内心有着特别多的想法，就想着更新自己的博客，结果一打开已经是404，本来糟糕的心情平添上了一丝惆怅，后来朋友说fq还是能访问我亲爱的博客的，然后就想到是不是自己的国内源挂掉了…一看，服务被自动关闭了…尴尬<br><a id="more"></a></p><hr><p>12-04更新<br>国内的网访问github好慢啊，重新在Linux部署博客用了一晚上，所以这篇文章其实是12-03写的，好气啊…打算诈尸更新一下bugme…</p><hr><h1 id="糟糕的人生"><a href="#糟糕的人生" class="headerlink" title="糟糕的人生"></a>糟糕的人生</h1><h2 id="孤独"><a href="#孤独" class="headerlink" title="孤独"></a>孤独</h2><p>网易云给我推荐了一个歌单叫做“其实你一直都很孤独”，没错啊，我反而觉得孤独是最好的陪伴，对吧（我怀疑我要去心理医生那一趟..）。<br>看看日期，今天是12月3日，你的名字(君の名は。)昨天首映，各种群都在讨论自己又要陪谁谁谁去看了啊…然而自己也就在家里看看枪版就算欣赏过这部电影了，听起来虽然挺心酸，但是又不是第一次了哇~</p><hr><blockquote><p>Lonely people, and sometimes it is difficult to express in words.<br>人的寂寞，有时候很难用语言表达。</p></blockquote><hr><h2 id="君の名は。"><a href="#君の名は。" class="headerlink" title="君の名は。"></a>君の名は。</h2><blockquote><p>电影结束的时候差点以为泷和三葉阔别那么多年却要擦肩而过，但看到没有秒速五厘米的樱花，没有闪烁的警示灯和飞驰而过的列车，果然泷也鼓足勇气回头大喊“请问我是不是在哪见过你” 三葉站在台阶上不知所措地泪流满面，那一刻才替他们松了口气。命运交错又擦肩 但还好我们终于相遇 第一眼就认出你。(转自网易云音乐评论)</p></blockquote><p><del>当你知道你的数学老师也在电影院陪女朋友看你的名字的时候是什么感想(小道消息，毕竟将来报道上出了差错我可是要负责任的)</del></p><h2 id="人际关系"><a href="#人际关系" class="headerlink" title="人际关系"></a>人际关系</h2><p>我觉得自己在人际交往这块好弱啊！！！！！！！！！！！！！<br>每次面对别人都不敢直视别人，手机也就成了救命稻草，假装刷刷微博，看看空间动态啊，你以为手机很好看么？至少手机上面没有眼睛，和你的目光</p><p>而且我觉得我一旦碰到某些“特殊的情况”，就会变得特别特别特别幼稚啊！(重要的事情说三遍！！！)</p><hr><p><strong>情商真的低到极点啊！</strong></p><hr><h2 id="Loser"><a href="#Loser" class="headerlink" title="Loser"></a>Loser</h2><p>现在的我还不是完美的我(以后也不会是，但是我相信会比现在好。<del>万一呢</del>)<br>有着很多的坏习惯，比如和朋友在一起开黑什么的就会非常激动，喊得特别大声<del>(自己又是最菜的那个，真的谢谢你们，不离不弃)</del><br>说好的减肥结果现在越来越胖又无可奈何，说了好几次我想做网易云的电台结果迟迟没动手(这回是真的要做了，不然活着真的没啥意义了)</p><hr><p><strong>不可能会有人喜欢我这么差劲的人</strong></p><hr><h2 id="找回生活的意义"><a href="#找回生活的意义" class="headerlink" title="找回生活的意义"></a>找回生活的意义</h2><p>我个人觉得我的声音还是能听的，当然我又不学播音<del>(因为太丑)</del>又不能这样浪费了我美妙的嗓子了啊~<br>也开始想办法改变自己的粗糙的皮肤(特别感谢宿舍的几位大兄弟)，尽量挺直自己的身躯，开始注意自己的言行举止，不再用下半身思考<del>(除了特殊情况)</del><br>当然呢，也不知道是谁传出去我会电脑的<del>(也可能是平时装逼不注意力度吧)</del>，找我弄电脑/手机的人数翻了一倍啊…</p><hr><blockquote><p><strong>There’s no one I’d rather be than me.  除了我自己，我不愿作任何人。</strong></p></blockquote><hr><h1 id="一些题外话"><a href="#一些题外话" class="headerlink" title="一些题外话"></a>一些题外话</h1><p>啊啊啊我想换手机啊，所以现在开始每周攒钱，开始怀念那段在百度行云开发组的日子，怀念当年水深火热的刷机市场还有被机油们捧上天的快感，怀念每个月都能得到不菲的零花钱(结果都被我爸花了)…</p><p>可这些都已经成为了历史，现在的现实就是我每个星期有200元的定量资金，一个星期的消费全部都是这200，没有例外<br>所以，距离双12还有9天，其实我是想入手一个机械键盘的，不过想想也没必要啊…<del>(还不是因为穷)</del></p><hr><blockquote><p><strong>If you really want to do something, you’ll find a way. If you don’t, you’ll find an excuse.<br>如果你真的想做什么事，你会找到方法。如果你不想，那你只能找到借口。</strong></p></blockquote><hr><h1 id="音乐-スパークル-movie-ver"><a href="#音乐-スパークル-movie-ver" class="headerlink" title="音乐-スパークル (movie ver.)"></a>音乐-スパークル (movie ver.)</h1><p>动画电影《你的名字。》插曲，算是弥补一下没去看电影的遗憾吧</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=426881503&auto=1&height=66"></iframe>]]></content>
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日常 </tag>
+            
+            <tag> 妈卖批 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>不知道写点什么</title>
+      <link href="/2016/10/06/%E4%B8%8D%E7%9F%A5%E9%81%93%E5%86%99%E7%82%B9%E4%BB%80%E4%B9%88.html"/>
+      <url>/2016/10/06/%E4%B8%8D%E7%9F%A5%E9%81%93%E5%86%99%E7%82%B9%E4%BB%80%E4%B9%88.html</url>
+      <content type="html"><![CDATA[<h1 id="日常更新"><a href="#日常更新" class="headerlink" title="日常更新"></a>日常更新</h1><p>转眼啊就高二了，都快段考了，现在呢好像是最后一个长假期了吧，又到了一个陌生的群体，朋友圈又拓展了一圈，虽然刚开学的时候各种一言不合就王者农药开黑搞事情，后面都在沉迷于自己的学习…尴尬<br>过了一个暑假感觉自己又长大了一样，就像上次一个亲戚和我说:”高几了？”<br>“高二。”<br>“高二了就少玩点手机”<br>“…”<br>“高二了就要多陪女孩子出去玩知道没？”<br>“？？？”<br>好吧其实每次看到人家各种秀心里总是很难受<br>对哦，好像我还欠一个女孩子几顿饭诶…<br>………….<br><a id="more"></a></p><h1 id="最近发生的"><a href="#最近发生的" class="headerlink" title="最近发生的"></a>最近发生的</h1><p>距离上次更新博客也有一个暑假的距离了，那个教程的博客还是在酒店写的呢，暑假玩的挺开心的，陪着爸爸妈妈到云南体验了一把民族生活，还有别和我提臭豆腐….</p><h2 id="Miui8开源了"><a href="#Miui8开源了" class="headerlink" title="Miui8开源了"></a>Miui8开源了</h2><p>啊，开心，啊，爽！<br>插插插！！！！！！！！！！！！！！<br>所以moto g都被我日上了6.0的miui8，充满小米信仰<br>不过最近把那个zz flyme开发者的群退了，何必跟自己过不去，这么好的工具都被糟蹋了</p><h2 id="各种安利"><a href="#各种安利" class="headerlink" title="各种安利"></a>各种安利</h2><p>唉，又是一年开学季，一群高三狗升级为大学里的学弟学妹(我估计我自己是那种高中完就是社会人士的)，然后就是各种安利啊<br>笔记本的话我都是给他们推荐的游戏本（一群男大学生不用游戏本用超级本？？？）妹纸的话…..给了一个大概的让她们自己挑了，咱审美不行…</p><h2 id="各种修修修"><a href="#各种修修修" class="headerlink" title="各种修修修"></a>各种修修修</h2><p>单身还是有原因的啊哈哈哈哈哈哈哈哈哈哈哈<br>又把一台闲置的显示器修好了<img src="http://ww4.sinaimg.cn/large/a15b4afegw1f8it342spcj20jg0c3gna" alt="L193 Wide"></p><p>  呐就是这货，检查了一下电源没事就判定是屏线问题了，这玩意用的是半片插式，贼容易出问题，重插之后问题解决2333333333</p><p>然后又在刚刚帮人本本清灰，感觉保养的还可以，灰尘“不是很多”</p><h1 id="音乐推荐"><a href="#音乐推荐" class="headerlink" title="音乐推荐"></a>音乐推荐</h1><p>最近PPAP好火啊….先丢一首再说</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=432821633&auto=0&height=66"></iframe><br>然后就是一首纯音乐啦，最近很喜欢纯音乐啊~<br>中文名是镜夜，听到高潮你会喜欢上的<br><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=32358437&auto=0&height=66"></iframe>]]></content>
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>开坑论如何在普通PC上安装MacOS系统(俗称黑苹果)</title>
+      <link href="/2016/07/22/install-macos-on-pc-guide.html"/>
+      <url>/2016/07/22/install-macos-on-pc-guide.html</url>
+      <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><blockquote><ul><li>一台正常的PC —— 需要确定所有硬件是否被MacOS所兼容</li><li>一个大于或等于8Gb容量的U盘</li><li>一个MacOS的原版with Clover的dmg镜像</li><li>一部能用来查阅资料的移动设备(可选)</li><li>一个适合你自己的Config.plist</li><li>一个大于或等于200M的ESP分区</li><li>一个有足够空间(推荐&gt;= 100G)的NTFS分区(后期会格式化为HFS+)</li></ul></blockquote><hr><p>20160722 更新</p><blockquote><ul><li>一个Intel的处理器(因为APU需要破解内核，并且安装之后会有很多问题)</li></ul></blockquote><hr><a id="more"></a><h2 id="选择合适自己的Config"><a href="#选择合适自己的Config" class="headerlink" title="选择合适自己的Config"></a>选择合适自己的Config</h2><ol><li><p>笔记本<br>笔记本可以使用对应自己核心显卡型号以及分辨率、芯片组的Config<br><a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config" target="_blank" rel="noopener">参考及下载地址</a></p><p>以上是RehabMan大神进行编写的Config，在此感谢</p></li><li><p>台式机<br>台式机建议使用Clover的万能的Config进行安装操作，然后对显卡部分和其他对应要修改的地方(例如对DSDT进行Patch，声卡ID的注入)进行修改.</p></li></ol><p>Clover Config的存放位置是/EFI/CLOVER/config.plist</p><h2 id="将系统镜像写入U盘"><a href="#将系统镜像写入U盘" class="headerlink" title="将系统镜像写入U盘"></a>将系统镜像写入U盘</h2><ul><li>Windows系统<br>使用Transmac软件进行写入(Vista/Win7以上系统注意需要以管理员权限运行)<br>具体方法，点击File-Open，选择下载好的镜像，然后Expand到U盘即可</li><li>Mac系统<br>点击Finder-前往-应用程序-实用工具-磁盘工具(或者Launchpad-实用工具-磁盘工具)，然后在Finder找到镜像双击进行挂载，在磁盘工具点击编辑-恢复…如图<br><img src="http://chenxy.moe/image/disk.png" alt="磁盘工具截图"></li></ul><ul><li>Linux<br>目前未知，也许dd可以😂….<br>然后你就拥有了一个可以引导的U盘</li></ul><h2 id="安装前的确认工作"><a href="#安装前的确认工作" class="headerlink" title="安装前的确认工作"></a>安装前的确认工作</h2><p>确认自己需要的引导器</p><ul><li>变色龙<br>一个适合在mbr分区表with legacy boot的引导器，有着入门低，后期问题高的特点，这里我不推荐</li><li>Clover EFI Bootloader(推荐+10086)<br>一个万能的引导器，可以引导Arch Linux、macOS，并且对于macOS来说，有着和白苹果一样的引导方法，所以很多问题可以轻而易举解决，还有很多的功能，例如Kext Patcher等等，可以方便你在 <strong><em>GUID分区表</em></strong> 上完成如同白苹果一样的系统安装方式。所以我推荐使用这款引导器！</li></ul><p><strong>引导的安装方法这里不作详细介绍！远景论坛有专门的帖子！</strong><br><strong>引导的安装方法这里不作详细介绍！远景论坛有专门的帖子！</strong><br><strong>引导的安装方法这里不作详细介绍！远景论坛有专门的帖子！</strong></p><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><p>进入你的主板BIOS，把UEFI模式打开，Secure Boot 关闭，具体方法请左转<a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a><br>然后插♂入你的U盘，进入你的主板Boot Menu，选择你的U盘，<strong>带UEFI那项！</strong> <strong>带UEFI那项！</strong> <strong>带UEFI那项！</strong><br>接下来就可以进入Clover的引导界面了<br>选择Boot OS X Installer from xxxxxx，回车，按照正常情况你应该会进入安装界面(然而一般情况下你会有很多坑需要解决才能进入，Config的配置是关键)</p><p>进入安装界面之后，选择语言(有可能没有，因为Clover会写入区域码，按照你的Config)，点击上方的实用工具-磁盘工具，对你那个预留的分区进行抹掉操作，什么都不用改，保持默认值就好，然后进行抹掉。</p><p>对磁盘操作完成之后，关闭磁盘工具，macOS Installer会自动出现，下一步，选择刚刚抹掉的分区，开始安装</p><p>安装结束之后，按照正常情况(人品boom!!!!)的情况下，再次引导U盘Clover，选择Boot Mac OS X from xxxxxx(你的分区)，直接回车，就可以开机了，安装就这样结束了(然而还是有后期完善- -)</p><h2 id="将Clover安装到硬盘"><a href="#将Clover安装到硬盘" class="headerlink" title="将Clover安装到硬盘"></a>将Clover安装到硬盘</h2><p>这个很简单，去<a href="https://sourceforge.net/projects/cloverefiboot/" target="_blank" rel="noopener">官方</a>下载pkg安装包，在macOS下执行(如果有安全提示，请右键打开，右键打开能出现打开的选项，双击则无)<br>勾选 <strong><em>仅安装UEFI开机版本</em></strong>，还有Driver64UEFI的 <strong>一些驱动</strong>，主题什么的，就可以下一步了，然后安装程序会自动挂载ESP分区，在Finder打开它，如图<img src="http://chenxy.moe/image/esp-finder.png" alt="Esp-Finder"><br>然后你就可以丢dsdt(/EFI/CLOVER/ACPI/patched)，驱动(/EFI/CLOVER/Kexts/)，配置文件(Config.plist)，安装就结束了！</p><p>后续将更新每个异常的解决办法以及后期完善黑苹果(例如DSDT的修改，提取ssdt等等)</p><p>就写到这里。已经凌晨了，祝自己晚安！</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=593814&auto=1&height=66"></iframe>]]></content>
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 黑苹果 </tag>
+            
+            <tag> 黑科技 </tag>
+            
+            <tag> 安装向导 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>快要期末考试了</title>
+      <link href="/2016/07/02/will-test.html"/>
+      <url>/2016/07/02/will-test.html</url>
+      <content type="html"><![CDATA[<p>说到考试这个话题,我就想吐槽一下应试教育,然后接着就各种吐槽balabalabala….</p><p>恩,7月4日我要考试了,所以更新一下我的blog<br><del>没错我只是个孩子</del><br><a id="more"></a><br>前几天的模拟考吧,考差了,这才发现我又浪过了一个学期,人们都说时间如流水,是啊,玩的时候特别快,比如明天这样一个美好的周日,没多久就可以去学校了</p><hr><p><strong>我用双手双脚发誓啦!</strong><br><strong>我昨天是整个学期最认真学习的一天了!!</strong></p><p><strong>我昨天是整个学期最认真学习的一天了!!</strong></p><p><strong>我昨天是整个学期最认真学习的一天了!!</strong></p><p><em>重要的事情说三遍!!!!!!!!!!!!!!!!!</em></p><p>所以呢….我需要放松一下</p><p>—&gt; Dj,来首 <del>社会摇</del> 中国风电音</p><p>默默的滚过去放了这首我比较喜欢的中国风电音</p><p>现在也挺晚了,更新一波就去睡觉吧,毕竟</p><p><strong>能美好的过上一晚上再醒来就是人生最大的幸福呢</strong></p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=41500546&auto=0&height=66"></iframe>]]></content>
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 考试 </tag>
+            
+            <tag> 人生 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>终于还是有了一个自己的博客</title>
+      <link href="/2016/06/26/newblog.html"/>
+      <url>/2016/06/26/newblog.html</url>
+      <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>我只是一名非常非常普通的开发者,如果要说有什么愿望的话,那就是能在别人面前 秀恩爱!!!!!!!</p><p>每天大半部分时间都在电脑面前,所以愿望实现很难咯~</p><p>开一个博客的目的仅仅是为了记录一些日常开发或者心情不好的时候能有一个发泄的平台(QQ空间太开放了,我需要一个自己的平台)</p><p>平时的自己非常沉默,但是说起话来却是滔滔不绝,真不知道自己是怎么做到的呢</p><p>刚好之前帮人家弄服务器,觉得自己也有必要开一个自己的博客了,有自己的私人空间,梦想终归还是实现了呐~</p><p>刚好也不知道有什么东西写,就放一首歌吧,我最近比较喜欢的一首歌.</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=22705492&auto=0&height=66"></iframe>]]></content>
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 新博客 </tag>
+            
+            <tag> 建站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+</search>
