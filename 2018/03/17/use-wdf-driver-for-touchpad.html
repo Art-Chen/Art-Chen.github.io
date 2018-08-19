@@ -122,26 +122,26 @@
 <meta name="description" content="写在最前  众所周知Windows 10自带了一套触摸板的控制系统，然而大部分厂商都选择了自己造轮子，但是这轮子不一定造的好啊，所以我选择使用了高精度触摸板驱动">
 <meta name="keywords" content="教程">
 <meta property="og:type" content="article">
-<meta property="og:title" content="在Windowws 10 上使用高精度触摸板驱动">
-<meta property="og:url" content="http://imchenxy.tk/2018/03/17/use-wdf-driver-for-touchpad.html">
+<meta property="og:title" content="在Windows 10 上使用高精度触摸板驱动">
+<meta property="og:url" content="https://chenxy.moe/2018/03/17/use-wdf-driver-for-touchpad.html">
 <meta property="og:site_name" content="Art_Chen&#39;s Blog">
 <meta property="og:description" content="写在最前  众所周知Windows 10自带了一套触摸板的控制系统，然而大部分厂商都选择了自己造轮子，但是这轮子不一定造的好啊，所以我选择使用了高精度触摸板驱动">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://imchenxy.tk/image/calalog.png">
-<meta property="og:image" content="http://imchenxy.tk/image/driver.gif">
-<meta property="og:image" content="http://imchenxy.tk/image/settings.gif">
-<meta property="og:updated_time" content="2018-03-17T11:44:54.618Z">
+<meta property="og:image" content="http://chenxy.moe/image/calalog.png">
+<meta property="og:image" content="http://chenxy.moe/image/driver.gif">
+<meta property="og:image" content="http://chenxy.moe/image/settings.gif">
+<meta property="og:updated_time" content="2018-08-19T04:22:40.758Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="在Windowws 10 上使用高精度触摸板驱动">
+<meta name="twitter:title" content="在Windows 10 上使用高精度触摸板驱动">
 <meta name="twitter:description" content="写在最前  众所周知Windows 10自带了一套触摸板的控制系统，然而大部分厂商都选择了自己造轮子，但是这轮子不一定造的好啊，所以我选择使用了高精度触摸板驱动">
-<meta name="twitter:image" content="http://imchenxy.tk/image/calalog.png">
+<meta name="twitter:image" content="http://chenxy.moe/image/calalog.png">
 
 
 
 
 
 
-  <link rel="canonical" href="http://imchenxy.tk/2018/03/17/use-wdf-driver-for-touchpad.html"/>
+  <link rel="canonical" href="https://chenxy.moe/2018/03/17/use-wdf-driver-for-touchpad.html"/>
 
 
 
@@ -150,7 +150,7 @@
     sidebar: "",
   };
 </script>
-  <title>在Windowws 10 上使用高精度触摸板驱动 | Art_Chen's Blog</title>
+  <title>在Windows 10 上使用高精度触摸板驱动 | Art_Chen's Blog</title>
   
 
 
@@ -329,7 +329,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://imchenxy.tk/2018/03/17/use-wdf-driver-for-touchpad.html">
+    <link itemprop="mainEntityOfPage" href="https://chenxy.moe/2018/03/17/use-wdf-driver-for-touchpad.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Art_Chen">
@@ -346,7 +346,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">在Windowws 10 上使用高精度触摸板驱动</h1>
+          <h1 class="post-title" itemprop="name headline">在Windows 10 上使用高精度触摸板驱动</h1>
         
 
         <div class="post-meta">
@@ -375,7 +375,7 @@
 
           
           
-             <span id="/2018/03/17/use-wdf-driver-for-touchpad.html" class="leancloud_visitors" data-flag-title="在Windowws 10 上使用高精度触摸板驱动">
+             <span id="/2018/03/17/use-wdf-driver-for-touchpad.html" class="leancloud_visitors" data-flag-title="在Windows 10 上使用高精度触摸板驱动">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -439,9 +439,9 @@
 </ul>
 <p>众所周知Windows 10自带了一套触摸板的控制系统，然而大部分厂商都选择了自己造轮子，但是这轮子不一定造的好啊，所以我选择使用了高精度触摸板驱动<br><a id="more"></a></p>
 <ul>
-<li>正文<br>首先，确认你是<strong>ELAN</strong>或者<strong>Synaptics</strong>的多指触控触摸板，然后在下面下载对应的驱动<br><a href="https://download.lenovo.com/pccbbs/mobiles/n1mgx14w.zip" title="Synaptics驱动" target="_blank" rel="noopener">Synaptics</a><br><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=%20Elan%20WDF" title="Windows Calalog" target="_blank" rel="noopener">ELAN</a><br>PS:ELAN请在链接里选择最新的版本下载 Date是日期<br><img src="http://imchenxy.tk/image/calalog.png" alt="ELAN驱动下载"></li>
+<li>正文<br>首先，确认你是<strong>ELAN</strong>或者<strong>Synaptics</strong>的多指触控触摸板，然后在下面下载对应的驱动<br><a href="https://download.lenovo.com/pccbbs/mobiles/n1mgx14w.zip" title="Synaptics驱动" target="_blank" rel="noopener">Synaptics</a><br><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=%20Elan%20WDF" title="Windows Calalog" target="_blank" rel="noopener">ELAN</a><br>PS:ELAN请在链接里选择最新的版本下载 Date是日期<br><img src="http://chenxy.moe/image/calalog.png" alt="ELAN驱动下载"></li>
 </ul>
-<p><img src="http://imchenxy.tk/image/driver.gif" alt="安装"><br><img src="http://imchenxy.tk/image/settings.gif" alt="设置"></p>
+<p><img src="http://chenxy.moe/image/driver.gif" alt="安装"><br><img src="http://chenxy.moe/image/settings.gif" alt="设置"></p>
 <p>All Done!打开Edge体验一下不输Mac的触摸板体验吧</p>
 
       
@@ -493,7 +493,7 @@
     <strong>本文作者： </strong>Art_Chen</li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://imchenxy.tk/2018/03/17/use-wdf-driver-for-touchpad.html" title="在Windowws 10 上使用高精度触摸板驱动">http://imchenxy.tk/2018/03/17/use-wdf-driver-for-touchpad.html</a>
+    <a href="https://chenxy.moe/2018/03/17/use-wdf-driver-for-touchpad.html" title="在Windows 10 上使用高精度触摸板驱动">https://chenxy.moe/2018/03/17/use-wdf-driver-for-touchpad.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>

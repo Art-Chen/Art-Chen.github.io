@@ -123,24 +123,24 @@
 <meta name="keywords" content="黑苹果,黑科技,安装向导">
 <meta property="og:type" content="article">
 <meta property="og:title" content="开坑论如何在普通PC上安装MacOS系统(俗称黑苹果)">
-<meta property="og:url" content="http://imchenxy.tk/2016/07/22/install-macos-on-pc-guide.html">
+<meta property="og:url" content="https://chenxy.moe/2016/07/22/install-macos-on-pc-guide.html">
 <meta property="og:site_name" content="Art_Chen&#39;s Blog">
 <meta property="og:description" content="准备工作  一台正常的PC —— 需要确定所有硬件是否被MacOS所兼容 一个大于或等于8Gb容量的U盘 一个MacOS的原版with Clover的dmg镜像 一部能用来查阅资料的移动设备(可选) 一个适合你自己的Config.plist 一个大于或等于200M的ESP分区 一个有足够空间(推荐&amp;gt;= 100G)的NTFS分区(后期会格式化为HFS+)    20160722 更新   一个">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://imchenxy.tk/image/disk.png">
-<meta property="og:image" content="http://imchenxy.tk/image/esp-finder.png">
-<meta property="og:updated_time" content="2016-10-06T09:15:25.000Z">
+<meta property="og:image" content="http://chenxy.moe/image/disk.png">
+<meta property="og:image" content="http://chenxy.moe/image/esp-finder.png">
+<meta property="og:updated_time" content="2018-08-19T04:22:53.999Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="开坑论如何在普通PC上安装MacOS系统(俗称黑苹果)">
 <meta name="twitter:description" content="准备工作  一台正常的PC —— 需要确定所有硬件是否被MacOS所兼容 一个大于或等于8Gb容量的U盘 一个MacOS的原版with Clover的dmg镜像 一部能用来查阅资料的移动设备(可选) 一个适合你自己的Config.plist 一个大于或等于200M的ESP分区 一个有足够空间(推荐&amp;gt;= 100G)的NTFS分区(后期会格式化为HFS+)    20160722 更新   一个">
-<meta name="twitter:image" content="http://imchenxy.tk/image/disk.png">
+<meta name="twitter:image" content="http://chenxy.moe/image/disk.png">
 
 
 
 
 
 
-  <link rel="canonical" href="http://imchenxy.tk/2016/07/22/install-macos-on-pc-guide.html"/>
+  <link rel="canonical" href="https://chenxy.moe/2016/07/22/install-macos-on-pc-guide.html"/>
 
 
 
@@ -328,7 +328,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://imchenxy.tk/2016/07/22/install-macos-on-pc-guide.html">
+    <link itemprop="mainEntityOfPage" href="https://chenxy.moe/2016/07/22/install-macos-on-pc-guide.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Art_Chen">
@@ -481,7 +481,7 @@
 <p>Clover Config的存放位置是/EFI/CLOVER/config.plist</p>
 <h2 id="将系统镜像写入U盘"><a href="#将系统镜像写入U盘" class="headerlink" title="将系统镜像写入U盘"></a>将系统镜像写入U盘</h2><ul>
 <li>Windows系统<br>使用Transmac软件进行写入(Vista/Win7以上系统注意需要以管理员权限运行)<br>具体方法，点击File-Open，选择下载好的镜像，然后Expand到U盘即可</li>
-<li>Mac系统<br>点击Finder-前往-应用程序-实用工具-磁盘工具(或者Launchpad-实用工具-磁盘工具)，然后在Finder找到镜像双击进行挂载，在磁盘工具点击编辑-恢复…如图<br><img src="http://imchenxy.tk/image/disk.png" alt="磁盘工具截图"></li>
+<li>Mac系统<br>点击Finder-前往-应用程序-实用工具-磁盘工具(或者Launchpad-实用工具-磁盘工具)，然后在Finder找到镜像双击进行挂载，在磁盘工具点击编辑-恢复…如图<br><img src="http://chenxy.moe/image/disk.png" alt="磁盘工具截图"></li>
 </ul>
 <ul>
 <li>Linux<br>目前未知，也许dd可以😂….<br>然后你就拥有了一个可以引导的U盘</li>
@@ -496,7 +496,7 @@
 <p>进入安装界面之后，选择语言(有可能没有，因为Clover会写入区域码，按照你的Config)，点击上方的实用工具-磁盘工具，对你那个预留的分区进行抹掉操作，什么都不用改，保持默认值就好，然后进行抹掉。</p>
 <p>对磁盘操作完成之后，关闭磁盘工具，macOS Installer会自动出现，下一步，选择刚刚抹掉的分区，开始安装</p>
 <p>安装结束之后，按照正常情况(人品boom!!!!)的情况下，再次引导U盘Clover，选择Boot Mac OS X from xxxxxx(你的分区)，直接回车，就可以开机了，安装就这样结束了(然而还是有后期完善- -)</p>
-<h2 id="将Clover安装到硬盘"><a href="#将Clover安装到硬盘" class="headerlink" title="将Clover安装到硬盘"></a>将Clover安装到硬盘</h2><p>这个很简单，去<a href="https://sourceforge.net/projects/cloverefiboot/" target="_blank" rel="noopener">官方</a>下载pkg安装包，在macOS下执行(如果有安全提示，请右键打开，右键打开能出现打开的选项，双击则无)<br>勾选 <strong><em>仅安装UEFI开机版本</em></strong>，还有Driver64UEFI的 <strong>一些驱动</strong>，主题什么的，就可以下一步了，然后安装程序会自动挂载ESP分区，在Finder打开它，如图<img src="http://imchenxy.tk/image/esp-finder.png" alt="Esp-Finder"><br>然后你就可以丢dsdt(/EFI/CLOVER/ACPI/patched)，驱动(/EFI/CLOVER/Kexts/)，配置文件(Config.plist)，安装就结束了！</p>
+<h2 id="将Clover安装到硬盘"><a href="#将Clover安装到硬盘" class="headerlink" title="将Clover安装到硬盘"></a>将Clover安装到硬盘</h2><p>这个很简单，去<a href="https://sourceforge.net/projects/cloverefiboot/" target="_blank" rel="noopener">官方</a>下载pkg安装包，在macOS下执行(如果有安全提示，请右键打开，右键打开能出现打开的选项，双击则无)<br>勾选 <strong><em>仅安装UEFI开机版本</em></strong>，还有Driver64UEFI的 <strong>一些驱动</strong>，主题什么的，就可以下一步了，然后安装程序会自动挂载ESP分区，在Finder打开它，如图<img src="http://chenxy.moe/image/esp-finder.png" alt="Esp-Finder"><br>然后你就可以丢dsdt(/EFI/CLOVER/ACPI/patched)，驱动(/EFI/CLOVER/Kexts/)，配置文件(Config.plist)，安装就结束了！</p>
 <p>后续将更新每个异常的解决办法以及后期完善黑苹果(例如DSDT的修改，提取ssdt等等)</p>
 <p>就写到这里。已经凌晨了，祝自己晚安！</p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=593814&auto=1&height=66"></iframe>
@@ -549,7 +549,7 @@
     <strong>本文作者： </strong>Art_Chen</li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://imchenxy.tk/2016/07/22/install-macos-on-pc-guide.html" title="开坑论如何在普通PC上安装MacOS系统(俗称黑苹果)">http://imchenxy.tk/2016/07/22/install-macos-on-pc-guide.html</a>
+    <a href="https://chenxy.moe/2016/07/22/install-macos-on-pc-guide.html" title="开坑论如何在普通PC上安装MacOS系统(俗称黑苹果)">https://chenxy.moe/2016/07/22/install-macos-on-pc-guide.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
